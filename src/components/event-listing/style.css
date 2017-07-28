@@ -1,0 +1,41 @@
+.event-listing {
+
+}
+
+.event-listing__title {
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.event-listing__date {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.event-listing__projects:not(.is-active) {
+  display: none;
+}
+
+.event-listing__add {
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 4px;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.event-listing__add h2 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333;
+}
+
+span {
+  font-size: 25px;
+  font-weight: 200;
+  margin-right: 5px;
+}

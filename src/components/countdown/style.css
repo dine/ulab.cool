@@ -1,0 +1,12 @@
+.countdown {
+  padding: 30px;
+  background: #0ec58e;
+  color: #fff;
+}
+
+.countdown__title {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}

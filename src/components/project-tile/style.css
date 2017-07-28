@@ -1,0 +1,26 @@
+.project-tile {
+  max-width: 800px;
+  min-height: 400px;
+  background-color: #000;
+  opacity: 0.9;
+  color: #fff;
+  margin: 20px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 200ms ease-in-out;
+}
+
+.project-tile:hover {
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+

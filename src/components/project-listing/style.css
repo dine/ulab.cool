@@ -1,0 +1,79 @@
+.project-listing {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.project-listing:hover {
+  border-color: #bbb;
+}
+
+.project-listing__icon {
+  margin: 0;
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.project-listing__users {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon,
+.btn--join {
+  width: 35px;
+  height: 35px;
+  background-color: #f2f2f2;
+  border-radius: 17.5px;
+  margin: 5px;
+}
+
+.user-icon {
+  background-image: url('https://x.myspacecdn.com/new/common/images/user.png');
+  background-size: contain;
+}
+
+.btn--join {
+  background-color: #0ec58e;
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  width: 70px;
+  font-weight: 100;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out;
+}
+
+.btn--join.align-center {
+  margin: auto;
+}
+
+.btn--join:hover {
+  background-color: #14d99e;
+  transition: background-color 150ms ease-in-out;
+}
+
+.modal__users {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+}
