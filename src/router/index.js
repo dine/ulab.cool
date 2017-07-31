@@ -16,6 +16,7 @@ Vue.http.options.emulateJSON = true;
 
 Vue.http.options.credentials = true;
 Vue.http.options.xhr = {withCredentials: true};
+Vue.http.headers.common['Accept'] = 'application/json';
 Vue.http.headers.common['Access-Control-Allow-Origin'] = 'http://localhost:8080';
 
 // Vue.http.interceptors.push((request, next) => {

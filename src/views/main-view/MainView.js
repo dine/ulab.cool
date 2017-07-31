@@ -9,6 +9,7 @@ export default {
       ProjectService.getProjects(this)
         .then(projects => {
           this.projects = projects;
+          console.log('projects: ', this.projects);
         })
         .catch(err => console.log(err));
     }
